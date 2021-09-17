@@ -30,4 +30,5 @@ def file_upload():
 
 
 if __name__ == '__main__':
-    application.run('0.0.0.0', port=5000, debug=True)
+    application.debug = True
+    application.run()
